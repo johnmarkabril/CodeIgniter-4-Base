@@ -15,7 +15,5 @@ class Testing extends BaseController
         $orderBy    =   'USERS_ID desc';
 
         $data = $usersModel->listReader($where, 5, null, $orderBy);
-
-        dump($data, 1);
     }
 }
